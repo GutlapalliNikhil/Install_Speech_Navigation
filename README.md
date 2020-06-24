@@ -1,9 +1,6 @@
 
 
-The `install` file will install all the files you need to build an autonomous robot including:
-- Teensy Firmware
-- Sensor Driver
-- Navigation Stack
+The `install` file will install all the files reqiuired for autonomous navigation using speech commands.
 
 You need to pass two arguments to the install file, where:
 ```
