@@ -57,7 +57,7 @@ if [ "$3" != "test" ]
         fi
 
         echo
-        echo -n "You are installing ROS-$ROSDISTRO Linorobot for $BASE base with a $SENSOR sensor. Enter [y] to continue. " 
+        echo -n "You are installing ROS-$ROSDISTRO for $BASE base with a $SENSOR sensor. Enter [y] to continue. " 
         read reply
         if [[ "$reply" != "y" && "$reply" != "Y" ]]
             then
@@ -114,7 +114,7 @@ if [[ "$3" == "test" ]]
         ros-$ROSDISTRO-depthimage-to-laserscan \
         ros-$ROSDISTRO-teb-local-planner 
 
-        cd $HOME/Documents/linorobot_ws/src
+        cd $HOME/hut_ws/src
         git clone https://github.com/EAIBOT/ydlidar.git
 
 else
@@ -147,7 +147,7 @@ else
 
     elif [[ "$SENSOR" == "rplidar" ]]
         then
-	    cd $HOME/Documents/linorobot_ws/src
+	    cd $HOME/hut_ws/src
 	    git clone https://github.com/Slamtec/rplidar_ros.git
 
 
@@ -157,7 +157,7 @@ else
 
     elif [[ "$SENSOR" == "ydlidar" ]]
         then
-            cd $HOME/Documents/linorobot_ws/src
+            cd $HOME/hut_ws/src
             git clone https://github.com/EAIBOT/ydlidar.git
     fi
 
