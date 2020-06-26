@@ -169,8 +169,6 @@ git clone https://github.com/GutlapalliNikhil/imu_calib.git
 git clone https://github.com/GutlapalliNikhil/rplidar_ros.git
 git clone https://github.com/GutlapalliNikhil/speech.git
 git clone https://github.com/cra-ros-pkg/robot_localization.git
-git clone https://github.com/ccny-ros-pkg/imu_tools.git
-git clone https://github.com/ros-geographic-info/geographic_info.git
 
 cd $HOME/hut_ws/src/hut/teensy/firmware
 export PLATFORMIO_CI_SRC=$PWD/src/firmware.ino
