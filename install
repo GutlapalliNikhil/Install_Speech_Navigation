@@ -95,7 +95,8 @@ sudo apt-get install -y \
 ros-$ROSDISTRO-gmapping \
 ros-$ROSDISTRO-map-server \
 ros-$ROSDISTRO-tf2 \
-ros-$ROSDISTRO-tf2-ros 
+ros-$ROSDISTRO-tf2-ros \
+ros-$ROSDISTRO-rosserial-python
 
 if [[ "$3" == "test" ]]
     then
