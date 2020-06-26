@@ -92,7 +92,6 @@ cd $HOME/hut_ws/src
 catkin_init_workspace
 
 sudo apt-get install -y \
-ros-$ROSDISTRO-imu-filter-madgwick \
 ros-$ROSDISTRO-gmapping \
 ros-$ROSDISTRO-map-server \
 ros-$ROSDISTRO-tf2 \
